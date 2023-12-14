@@ -3,6 +3,6 @@ import {MyPosts} from './MyPosts';
 
 describe('MyPosts component', () => {
     it('render without error', () => {
-        render(<MyPosts/>);
+        render(<MyPosts posts={[]}/>);
     })
 });

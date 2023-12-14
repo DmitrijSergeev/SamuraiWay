@@ -1,14 +1,17 @@
 import React, {FC} from 'react';
 import s from './MyPosts.module.css'
 import {Post} from "../MyPosts/Post/Post";
+import {PostsType} from "../Profile";
 
-type MyPostsPType = {}
+type MyPostsPType = {
+    posts: PostsType[]
+}
 
 export const MyPosts: FC<MyPostsPType> = (props) => {
-    const {} = props;
+    const {posts} = props;
     return (
         <div className={s.MyPosts}>
-            <Post/>
+            <Post posts={posts}/>
         </div>
     );
 };

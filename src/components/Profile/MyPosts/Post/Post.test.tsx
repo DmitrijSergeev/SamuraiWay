@@ -3,6 +3,6 @@ import {Post} from './Post';
 
 describe('Post component', () => {
     it('render without error', () => {
-        render(<Post/>);
+        render(<Post posts={[]}/>);
     })
 });

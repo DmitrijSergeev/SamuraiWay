@@ -3,8 +3,6 @@ import './App.css';
 import {Header} from "./components/Haeder/Header";
 import {Profile} from "./components/Profile/Profile";
 import {Dialogs} from "./components/Dialogs/Dialogs";
-import {News} from "./components/News/News";
-import {Music} from "./components/Music/Music";
 import {Navbar} from "./components/Navbar/Navbar";
 import {Navigate, Route, Routes} from "react-router-dom";
 import {Error} from "./components/Error/Error";

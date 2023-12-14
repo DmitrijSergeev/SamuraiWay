@@ -1,12 +1,14 @@
 import React, {FC} from 'react';
 import s from './Message.module.css'
 
-type MessagePType = {}
+type MessagePType = {
+    message: string
+}
 
 export const Message: FC<MessagePType> = (props) => {
-const {} = props;
- return (
-  <div className={s.Message}>
-  </div>
- );
+    const {message} = props;
+    return (
+        <div className={s.message}>{message}
+        </div>
+    );
 };

@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    grid-area: h;
+    background-color: darkcyan;
+}
+h1 {
+    margin-left: 195px;
+    color: bisque;
+}
+.ya {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
